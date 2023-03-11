@@ -23,13 +23,13 @@ public class GeneradorL : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //GeneraTerrenoNuevo
-            Instantiate(terreno[0], new Vector3(generador.position.x - 25.98076f, 0, 0), new Quaternion(-1, 0, 0, 1));
+            Instantiate(terreno[0], new Vector3(generador.position.x - 25.98076f, 0, generador.position.z), new Quaternion(-1, 0, 0, 1));
 
             //Crea nuevo generadorR
             //Instantiate(generadorR, new Vector3(generador.position.x + 51.96152f, 0, 0), new Quaternion(-1, 0, 0, 1));
 
             //Crea nuevo generadorL 
-            Instantiate(generadorL, new Vector3(generador.position.x - 51.96152f, 0, 0), new Quaternion(-1, 0, 0, 1));
+            Instantiate(generadorL, new Vector3(generador.position.x - 51.96152f, 0, generador.position.z), new Quaternion(-1, 0, 0, 1));
 
             //Crea nuevo generadorLT 
             Instantiate(generadorLT, new Vector3(generador.position.x - 38.97114f, 0, generador.position.z + 22.5f), new Quaternion(-1, 0, 0, 1));
