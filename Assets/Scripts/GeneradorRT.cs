@@ -23,7 +23,7 @@ public class GeneradorRT : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //GeneraTerrenoNuevo
-            Instantiate(terreno[0], new Vector3(generador.position.x + 12.99038f, 0, generador.position.z + 22.5f), new Quaternion(-1, 0, 0, 1));
+            Instantiate(terreno[Random.Range(0, terreno.Length)], new Vector3(generador.position.x + 12.99038f, 0, generador.position.z + 22.5f), new Quaternion(-1, 0, 0, 1));
 
             //Crea nuevo generadorR
             Instantiate(generadorR, new Vector3(generador.position.x + 38.97114f, 0, generador.position.z + 22.5f), new Quaternion(-1, 0, 0, 1));
