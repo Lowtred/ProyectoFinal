@@ -6,9 +6,10 @@ using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject menuPusa;
+    public GameObject menuPausa;
     public GameObject interfaz;
     public GameObject menuInicio;
+    public GameObject menuOpciones;
 
     public AudioClip[] audios;
     public AudioSource audioSource;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     public Slider sliderMaster;
     public Slider sliderMusica;
     public Slider sliderSonido;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,15 +26,18 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
+    void Update()
+    {
+        masterMixer.SetFloat("VolMaster", sliderMaster.value);
+        masterMixer.SetFloat("VolMusica", sliderMusica.value);
+        masterMixer.SetFloat("VolSonido", sliderSonido.value);
+    }
 
     public void pausa()
     {
+        audioSource.Stop();
         audioSource.PlayOneShot(audios[0]);
-        menuPusa.SetActive(true);
+        menuPausa.SetActive(true);
         interfaz.SetActive(false);
         Time.timeScale = 0;
     }
@@ -40,8 +45,9 @@ public class GameManager : MonoBehaviour
     public void Continuar()
     {
         audioSource.PlayOneShot(audios[0]);
-        menuPusa.SetActive(false);
+        menuPausa.SetActive(false);
         interfaz.SetActive(true);
+
         Time.timeScale = 1;
     }
     public void Inicio()
@@ -58,9 +64,23 @@ public class GameManager : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(audios[0]);
         menuInicio.SetActive(true);
-        menuPusa.SetActive(false);
+        menuPausa.SetActive(false);
+        menuOpciones.SetActive(false);
         Time.timeScale = 0;
         audioSource.PlayOneShot(audios[1]);
+    }
+    public void Opciones()
+    {
+        menuOpciones.SetActive(true);
+        menuPausa.SetActive(false);
+        menuInicio.SetActive(false);
+        audioSource.PlayOneShot(audios[0]);
+    }
+    public void VolverOpciones()
+    {
+        menuOpciones.SetActive(false);
+        menuPausa.SetActive(true);
+        audioSource.PlayOneShot(audios[0]);
     }
     public void Salir() 
     {

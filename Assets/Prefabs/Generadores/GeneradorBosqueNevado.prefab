@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8586268166342276136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8586268166342276138}
+  - component: {fileID: 8586268166342276137}
+  m_Layer: 0
+  m_Name: GeneradorBosqueNevado
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8586268166342276138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586268166342276136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.09, y: 0, z: -3.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8586268166342276137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586268166342276136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21ecc3c927a6084f9c726352c3fc8e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generador: {fileID: 8586268166342276138}
+  objeto:
+  - {fileID: 8398708567477552439, guid: ecc905811b6986c4c83fdd781818be3b, type: 3}
+  - {fileID: 8398708567477552439, guid: ecc905811b6986c4c83fdd781818be3b, type: 3}
+  - {fileID: 8398708567477552439, guid: ecc905811b6986c4c83fdd781818be3b, type: 3}
+  - {fileID: 7511941873004253988, guid: 64c4bfe4a2f54d744aaeaebb1b6cb5f3, type: 3}
+  - {fileID: 7511941873004253988, guid: 64c4bfe4a2f54d744aaeaebb1b6cb5f3, type: 3}
+  - {fileID: 7511941873004253988, guid: 64c4bfe4a2f54d744aaeaebb1b6cb5f3, type: 3}
+  - {fileID: 927890760911584980, guid: 6cc07877cf668a84f80beaa7d8b342f7, type: 3}
+  - {fileID: 927890760911584980, guid: 6cc07877cf668a84f80beaa7d8b342f7, type: 3}
+  - {fileID: 927890760911584980, guid: 6cc07877cf668a84f80beaa7d8b342f7, type: 3}
+  - {fileID: 5455145318240331396, guid: a9758617502d80d47969940ef1ddbedd, type: 3}
+  - {fileID: 8679616163545443174, guid: a22ad74868a43b541b39c9e0bc181413, type: 3}
+  - {fileID: 7129566464215459443, guid: 912d80d77f72ea342ad53277059cf4fe, type: 3}
+  - {fileID: 7063216761928175229, guid: 528f6bd39e430eb43a83b08309071738, type: 3}
+  - {fileID: 6874864256954183867, guid: eb38e862e9fbb8a4db1dc0e4f873cdd0, type: 3}
+  - {fileID: 5434768132285914912, guid: 338487220823f7c4e8c2f8b5e39ed0e8, type: 3}
+  - {fileID: 261785068336493341, guid: c74a0a2ed6a28384b90e88f5c91a765e, type: 3}
+  - {fileID: 8641119519834120860, guid: dd3498ca85fb80145a4f46785b52de53, type: 3}
+  - {fileID: 7516703118434381434, guid: 462cba55433e9e14784853e81c6c0ded, type: 3}
+  - {fileID: 2478096728777486659, guid: 00fee540a22579c42ae8bb4f0d382b14, type: 3}
+  - {fileID: 3742767451803129011, guid: 27728e3086b645341850bf7cf67319ec, type: 3}
+  probabilidadGenerar: 90

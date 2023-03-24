@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ControlJugador : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class ControlJugador : MonoBehaviour
     public float danoPorGolpe;
     public float vidaJugador;
     float vidaActualJugador;
+    float EnergiaActualJugador;
+
+    //UI
+    public Slider barraVida;
+    public Slider barraEnergia;
 
     //Movimiento
     private float movHorizontal;
@@ -25,15 +31,23 @@ public class ControlJugador : MonoBehaviour
     {
         player = GetComponent<CharacterController>();
         vidaActualJugador = vidaJugador;
+        barraVida.value = vidaActualJugador;
+        EnergiaActualJugador = 10;
+        barraEnergia.value = EnergiaActualJugador;
         Muevete();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
         movHorizontal = Input.GetAxis("Horizontal");
         movVertical = Input.GetAxis("Vertical");
-        if (Input.GetButtonDown("Fire1"))
+        if (EnergiaActualJugador < 10)
+        {
+            EnergiaActualJugador += 0.001f;
+            barraEnergia.value = EnergiaActualJugador;
+        }
+        if (Input.GetButtonDown("Fire1") && EnergiaActualJugador>=1)
         {
             animator.SetTrigger("Ataque");
         }
@@ -61,11 +75,13 @@ public class ControlJugador : MonoBehaviour
             {
                 animator.SetTrigger("GolpeR");
                 vidaActualJugador -= danoPorGolpe;
-                Debug.Log(vidaActualJugador);
+                barraVida.value = vidaActualJugador;
+                //Debug.Log(vidaActualJugador);
             }
 
             if (vidaActualJugador <= 0)
             {
+                barraVida.value = vidaActualJugador;
                 animator.SetTrigger("Death");
                 //Destroy(gameObject, 4);
             }
@@ -84,6 +100,8 @@ public class ControlJugador : MonoBehaviour
     public void Ataca()
     {
         colliderAtaque.SetActive(true);
+        EnergiaActualJugador -= 2;
+        barraEnergia.value = EnergiaActualJugador;
     }
 
     public void DejaDeAtacar()
