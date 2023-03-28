@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class ControlJugador : MonoBehaviour
 {
+    public GameObject gameOver;
     //InfoJugador
     public float danoPorGolpe;
     public float vidaJugador;
+    public Transform posJugador;
     float vidaActualJugador;
     float EnergiaActualJugador;
 
@@ -20,12 +22,15 @@ public class ControlJugador : MonoBehaviour
     private float movVertical;
     public CharacterController player;
     public float playerSpeed;
+    float movY;
 
     //Animacion
     public Animator animator;
 
     public bool canMove;
     public GameObject colliderAtaque;
+    //sonido
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -42,9 +47,17 @@ public class ControlJugador : MonoBehaviour
     {
         movHorizontal = Input.GetAxis("Horizontal");
         movVertical = Input.GetAxis("Vertical");
+        if (posJugador.position.y > 0.25)
+        {
+            movY = -0.1f;
+        }
+        else 
+        {
+            movY = 0;
+        }
         if (EnergiaActualJugador < 10)
         {
-            EnergiaActualJugador += 0.001f;
+            EnergiaActualJugador += 0.003f;
             barraEnergia.value = EnergiaActualJugador;
         }
         if (Input.GetButtonDown("Fire1") && EnergiaActualJugador>=1)
@@ -54,7 +67,7 @@ public class ControlJugador : MonoBehaviour
         
         if (canMove)
         {
-            player.Move(new Vector3(movHorizontal, 0, movVertical) * playerSpeed * Time.deltaTime);
+            player.Move(new Vector3(movHorizontal, movY, movVertical) * playerSpeed * Time.deltaTime);
             animator.SetFloat("Camina", (Mathf.Abs(movVertical) + Mathf.Abs(movHorizontal)));
             //rotacion a puntero de mouse
             Vector3 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
@@ -86,6 +99,15 @@ public class ControlJugador : MonoBehaviour
                 //Destroy(gameObject, 4);
             }
         }
+        if (other.gameObject.CompareTag("Cura")) 
+        {
+            if (vidaActualJugador < vidaJugador) 
+            {
+                vidaActualJugador += 1;
+                barraVida.value = vidaActualJugador;
+                Destroy(other.gameObject);
+            }
+        }
     }
     public void Muevete()
     {
@@ -107,5 +129,12 @@ public class ControlJugador : MonoBehaviour
     public void DejaDeAtacar()
     {
         colliderAtaque.SetActive(false);
+    }
+
+    public void GameOver()
+    {
+        Time.timeScale = 0;
+        audioSource.Stop();
+        gameOver.SetActive(true);
     }
 }

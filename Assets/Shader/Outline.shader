@@ -23,7 +23,7 @@ Shader "Diplomado/Outline"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-
+            #pragma multi_compile_fog
             #include "UnityCG.cginc"
 
             struct appdata
@@ -35,6 +35,7 @@ Shader "Diplomado/Outline"
             struct v2f
             {
                 float2 uv : TEXCOORD0;
+                UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
             };
 
@@ -61,6 +62,7 @@ Shader "Diplomado/Outline"
                 float4 vertexPos = outline(v.vertex, _OutValue);
                 o.vertex = UnityObjectToClipPos(vertexPos);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                UNITY_TRANSFER_FOG(o, o.vertex);
                 return o;
             }
 
@@ -68,7 +70,8 @@ Shader "Diplomado/Outline"
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
-            return float4(_OutColor.r,_OutColor.g,_OutColor.b, col.a);
+                UNITY_APPLY_FOG(i.fogCoord, col);
+                return float4(_OutColor.r,_OutColor.g,_OutColor.b, col.a);
             }
             ENDCG
         }
@@ -85,7 +88,7 @@ Shader "Diplomado/Outline"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-
+            #pragma multi_compile_fog
             #include "UnityCG.cginc"
 
             struct appdata
@@ -97,6 +100,7 @@ Shader "Diplomado/Outline"
             struct v2f
             {
                 float2 uv : TEXCOORD0;
+                UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
             };
 
@@ -108,6 +112,7 @@ Shader "Diplomado/Outline"
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                UNITY_TRANSFER_FOG(o, o.vertex);
                 return o;
             }
 
@@ -115,6 +120,7 @@ Shader "Diplomado/Outline"
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
+                UNITY_APPLY_FOG(i.fogCoord, col);
                 return col;
             }
             ENDCG

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class Bandido : MonoBehaviour
 {
@@ -32,8 +33,8 @@ public class Bandido : MonoBehaviour
     public Slider barraVidaEnemigo;
 
     //Sonido
-    //public AudioClip[] audios;
-    //public AudioSource audioSource;
+    public AudioClip[] audios;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +55,8 @@ public class Bandido : MonoBehaviour
             {
                 if (enMovimiento == false)
                 {
+                    audioSource.Stop();
+                    audioSource.PlayOneShot(audios[0]);
                     animator.SetBool(variableMovimiento, true);
                     enMovimiento = true;
                 }

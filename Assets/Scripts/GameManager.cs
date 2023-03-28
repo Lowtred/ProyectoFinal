@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -82,9 +83,16 @@ public class GameManager : MonoBehaviour
         menuPausa.SetActive(true);
         audioSource.PlayOneShot(audios[0]);
     }
+    
     public void Salir() 
     {
         audioSource.PlayOneShot(audios[0]);
         Application.Quit();
+    }
+
+    public void ReiniciarJuego()
+    {
+        audioSource.PlayOneShot(audios[0]);
+        SceneManager.LoadScene("SampleScene");
     }
 }
