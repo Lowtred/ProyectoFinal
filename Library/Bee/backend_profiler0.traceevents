@@ -1,429 +1,429 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1680034731414268, "dur":1089, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731415364, "dur":132, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1680034731415529, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1680034731415546, "dur":275, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1680034731415844, "dur":565, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731416409, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608195, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608347, "dur":92, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608439, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608467, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608480, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608483, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608491, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608493, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608498, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608500, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608506, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608507, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608513, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608515, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608520, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608522, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608527, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608529, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608535, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608536, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608543, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608544, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608551, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608552, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608558, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608574, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731608595, "dur":1367, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1680034731416005, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731416416, "dur":3727, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420155, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420158, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420194, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420196, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420210, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420301, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420393, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420457, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420483, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420544, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420564, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420607, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420622, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420637, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420652, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420666, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420681, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420696, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731420713, "dur":107063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1680034731527776, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1680034731527797, "dur":80421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731416060, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731416428, "dur":3722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420155, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420367, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420457, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420699, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420718, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420740, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420754, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420795, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420823, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420851, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420869, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420890, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731420904, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731421011, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731421027, "dur":10081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1680034731431109, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731431129, "dur":23842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731454972, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731455006, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731455805, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731455833, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731456427, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731456446, "dur":23672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731480118, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731480156, "dur":39518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1680034731519675, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1680034731519711, "dur":88488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731416028, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731416418, "dur":3729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420155, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420265, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420383, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420488, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420522, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420906, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420982, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1680034731420997, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731421010, "dur":42114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1680034731463124, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731463144, "dur":10034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1680034731473179, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731473196, "dur":2452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1680034731475649, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731475676, "dur":99044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1680034731574721, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1680034731574742, "dur":33458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731416051, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731416423, "dur":3725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420155, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420321, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420443, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420528, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420550, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420613, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420626, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420645, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420872, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1680034731420985, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731421003, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1680034731421025, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731421037, "dur":6964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1680034731428002, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731428043, "dur":10018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Threading.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1680034731438061, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731438083, "dur":10762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Networking.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1680034731448846, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731448879, "dur":46515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1680034731495394, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731495415, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1680034731495446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1680034731495450, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1680034731499212, "dur":108978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731416085, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731416432, "dur":3723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420155, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420342, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420624, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420647, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420667, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420681, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420698, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420716, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420734, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420748, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420761, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420773, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420788, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420805, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420821, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420835, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420851, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420862, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420874, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420888, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420901, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420912, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420979, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731420995, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731421076, "dur":158175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1680034731579251, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1680034731579268, "dur":28927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731416105, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731416436, "dur":3738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420174, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420351, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420662, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420687, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420699, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420717, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420736, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420748, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420758, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420774, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420788, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420803, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420827, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420844, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420855, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420870, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420887, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420900, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420971, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731420992, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731421009, "dur":7621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1680034731428631, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731428652, "dur":7053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1680034731435706, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731435739, "dur":37159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1680034731472899, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731472932, "dur":9746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1680034731482678, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731482703, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1680034731482721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731482728, "dur":14051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1680034731496792, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1680034731496810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1680034731496815, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1680034731498478, "dur":109715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731416137, "dur":305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731416442, "dur":3707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420154, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420359, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420391, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420846, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420878, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1680034731420906, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731421065, "dur":8782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731429847, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731429865, "dur":6867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731436733, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731436756, "dur":6856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731443613, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731443644, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":7, "ts":1680034731444337, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731444355, "dur":4689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Internal.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731449044, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731449063, "dur":12234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731461298, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731461327, "dur":8222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Device.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1680034731469550, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731469578, "dur":23704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1680034731493282, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731493302, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1680034731493320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731493324, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1680034731498303, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1680034731498528, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1680034731498545, "dur":109647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731416157, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731416447, "dur":3704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420155, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420301, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420448, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420534, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420569, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420644, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420665, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420690, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731420705, "dur":7780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731428485, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731428516, "dur":2821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731431337, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731431353, "dur":19606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Registration.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731450960, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731450991, "dur":15413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731466405, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731466438, "dur":7885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474324, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474357, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474372, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474412, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474429, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474456, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474469, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474488, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474501, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474520, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474530, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474547, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474559, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474577, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474587, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474603, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474613, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474630, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474642, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474674, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474686, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474707, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474717, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474736, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474745, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474790, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474805, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474814, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474825, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474844, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474854, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474871, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474881, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474890, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474899, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474917, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474927, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474948, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Newtonsoft.Json.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474959, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474967, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474977, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474986, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731474998, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731475007, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731475016, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731475025, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1680034731475035, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731475053, "dur":6217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Cinemachine.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481271, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481302, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481492, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481510, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731481948, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":8, "ts":1680034731484431, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1680034731484451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1680034731484458, "dur":123697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1680034731608167, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":8, "ts":1680034731608169, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731416186, "dur":264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731416450, "dur":3722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420172, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420353, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420414, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420491, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420527, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal.exe" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420556, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420566, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420606, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420621, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420636, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420650, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420669, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420686, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420700, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420714, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420726, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420740, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420760, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420773, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420788, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420805, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420825, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420842, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420855, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420871, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420884, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420898, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420912, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420982, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731420999, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731421011, "dur":8116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1680034731429127, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731429147, "dur":46862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":9, "ts":1680034731476010, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731476029, "dur":10340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1680034731486370, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731486401, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1680034731486427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1680034731486435, "dur":84936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1680034731571415, "dur":36781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731416208, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731416454, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420155, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420397, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420475, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420550, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420563, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420611, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420626, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420651, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420666, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420690, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420702, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420720, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420733, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420746, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420758, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420783, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420795, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420815, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420828, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420848, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420862, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420873, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420886, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420903, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420978, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731420999, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731421023, "dur":82871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1680034731503894, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1680034731503924, "dur":104274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731416241, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731416458, "dur":3695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420156, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420376, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420741, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420785, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420802, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420819, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420833, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420852, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420873, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420889, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420903, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420976, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731420995, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731421009, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731421030, "dur":70614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1680034731491645, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731491676, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1680034731491701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731491707, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1680034731497969, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1680034731497987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1680034731497992, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1680034731499442, "dur":108746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731416264, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731416461, "dur":3708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420170, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420349, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420454, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420536, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420611, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420625, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420637, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420653, "dur":332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731420985, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731421008, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731421034, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731421050, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731421063, "dur":66621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1680034731487684, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731487705, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":12, "ts":1680034731487887, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731487903, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":12, "ts":1680034731488690, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731488709, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1680034731488728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1680034731488735, "dur":10633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1680034731499381, "dur":108836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1680034731611190, "dur":1373, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1680142780374908, "dur":910, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780375826, "dur":113, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680142780375969, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680142780375985, "dur":324, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680142780376331, "dur":555, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780376886, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556220, "dur":215, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556436, "dur":44, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556480, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556483, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556491, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556493, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556498, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556499, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556504, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556506, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556510, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556511, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556518, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556519, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556525, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556529, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556530, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556535, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556536, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556541, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556542, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556546, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556547, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556552, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556560, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780556587, "dur":1081, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680142780376476, "dur":416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780376894, "dur":3530, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380436, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380439, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380501, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380504, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380527, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380636, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380662, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380772, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380800, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380817, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380839, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380856, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380871, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380887, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380908, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380927, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380945, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780380965, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780381046, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780381068, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780381085, "dur":70290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680142780451376, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780451414, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1680142780451447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680142780451455, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1680142780453534, "dur":102661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780376540, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780376901, "dur":3528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380436, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380627, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380643, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380755, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380773, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380797, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380816, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380833, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380854, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380880, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380899, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380919, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380932, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380950, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780380964, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780381040, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780381058, "dur":6610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780387670, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780387699, "dur":8066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780395765, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780395784, "dur":9646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780405430, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780405448, "dur":8551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780414000, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780414032, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780415137, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780415156, "dur":9002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780424158, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780424180, "dur":8456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1680142780432637, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780432664, "dur":35958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680142780468623, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680142780468655, "dur":87547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780376498, "dur":398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780376896, "dur":3534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380436, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380587, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380604, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380678, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380693, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380766, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380788, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380825, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380853, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380871, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380893, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380915, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380929, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380944, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380955, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780380969, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780381048, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780381076, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780381092, "dur":6912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680142780388004, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780388020, "dur":6371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680142780394392, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780394420, "dur":37591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680142780432012, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780432037, "dur":6297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1680142780438334, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780438362, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1680142780438385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780438392, "dur":13093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1680142780451504, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1680142780451523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680142780451530, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1680142780452841, "dur":103353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780376560, "dur":346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780376907, "dur":3524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380437, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380637, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380657, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380772, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380789, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380806, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380820, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380839, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380863, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380879, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380897, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380917, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380932, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380946, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380961, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780380974, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780381053, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780381070, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780381081, "dur":79015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680142780460097, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680142780460132, "dur":96068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780376589, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780376911, "dur":3515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380437, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380653, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380677, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal.exe" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380703, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380764, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380790, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380805, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380821, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380842, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380864, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380901, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380918, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380934, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380949, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380961, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780380975, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780381050, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780381080, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780381095, "dur":66218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1680142780447313, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780447332, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680142780447347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780447351, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680142780451629, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680142780451648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1680142780451653, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1680142780453679, "dur":102519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780376613, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780376916, "dur":3511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380437, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380562, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380578, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380650, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380663, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380774, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380792, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380814, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780380830, "dur":7037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680142780387867, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780387889, "dur":2197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680142780390087, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780390105, "dur":8663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680142780398768, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780398787, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680142780399971, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780399988, "dur":5032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1680142780405020, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780405046, "dur":46320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1680142780451367, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780451749, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1680142780451769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1680142780451773, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1680142780453671, "dur":102522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780376632, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780376921, "dur":3513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380436, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380635, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380661, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380772, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380789, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380816, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380833, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380858, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380882, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380895, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380916, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380939, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380953, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780380970, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780381047, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780381065, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780381082, "dur":8394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780389476, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780389495, "dur":7544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780397040, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780397068, "dur":9710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780406779, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780406808, "dur":8022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780414831, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780414862, "dur":1105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780415967, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780415985, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780416581, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780416597, "dur":7651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780424249, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780424268, "dur":894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425162, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425179, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425192, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425202, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425215, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425224, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425235, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425244, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425255, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425265, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425276, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425285, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425295, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425304, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425313, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425322, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425331, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425339, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425350, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425360, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425370, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425379, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425393, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425401, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425411, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425420, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425431, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425440, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425450, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425458, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425469, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425477, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425486, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425494, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425504, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425512, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425524, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425532, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425543, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425551, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425562, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425571, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425580, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425588, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425597, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425605, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425614, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780425623, "dur":4607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1680142780430231, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780430263, "dur":109117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1680142780539381, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1680142780539409, "dur":16795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780376652, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780376925, "dur":3511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380437, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380611, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380633, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380694, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380706, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380770, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380790, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380812, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380833, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380864, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380883, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380902, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380931, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380954, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780380970, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780381057, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780381081, "dur":8676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1680142780389757, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780389774, "dur":25210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780414984, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780415004, "dur":23746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1680142780438750, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780438773, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1680142780438791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1680142780438796, "dur":117361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1680142780556172, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1680142780556174, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780376670, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780376929, "dur":3506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380438, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380611, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380630, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380696, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380770, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380805, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380821, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380863, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380886, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380910, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380925, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380944, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780380959, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381035, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381054, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381071, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381086, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381102, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780381115, "dur":158375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1680142780539490, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1680142780539514, "dur":16687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780376690, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780376934, "dur":3507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380441, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380568, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380582, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380661, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380680, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380696, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380760, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380787, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380800, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380816, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380836, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380870, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380903, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380933, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380948, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780380967, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780381046, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780381079, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780381108, "dur":6949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1680142780388057, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780388088, "dur":44913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433001, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433020, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433163, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433178, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780433514, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1680142780438901, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1680142780438920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1680142780438926, "dur":16003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1680142780454939, "dur":101276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780376708, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780376938, "dur":3501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380440, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380652, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380678, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380756, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380776, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380805, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780380830, "dur":127625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1680142780508456, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1680142780508492, "dur":47713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780376725, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780376942, "dur":3491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380437, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380552, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380568, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380649, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380679, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380700, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380762, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380785, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380799, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380818, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380838, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380859, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380883, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380898, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380909, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380929, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380946, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780380964, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780381042, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780381062, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780381077, "dur":39220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780420298, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780420327, "dur":25397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1680142780445725, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780445764, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1680142780445971, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780445992, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1680142780446696, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780446715, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1680142780446731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780446737, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1680142780452130, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Proyecto/ProyectoDiplomado/TerraNova/ProyectoFinal_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1680142780452281, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1680142780452296, "dur":103901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680142780558610, "dur":1342, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
